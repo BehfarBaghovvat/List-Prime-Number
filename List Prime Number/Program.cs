@@ -13,7 +13,8 @@ namespace List_Prime_Number
 
             System.Console.WriteLine();
 
-            System.Console.Write("Please Enter Number: ");
+            System.Console.Write
+                ("Please Enter Number: ");
 
             Number=System.Convert.ToInt32
                 ( System.Console.ReadLine());
@@ -45,12 +46,12 @@ namespace List_Prime_Number
                 if (Index <= 2)
                 {
 
-                    System.Console.WriteLine("The number {0} is PRIME NUMBER:  ", i);
+                    System.Console.WriteLine
+                        ("The number {0} is PRIME NUMBER:  ", i);
 
                 }
                 
             }
-
 
             System.Console.WriteLine();
             System.Console.WriteLine();
